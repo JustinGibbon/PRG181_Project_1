@@ -32,7 +32,7 @@ namespace Project
                 "4:Exit the program");
             int option = Convert.ToInt32(Console.ReadLine());
 
-            while (option == 1 || option == 2 || option == 3)
+            while (option !=4)
             {
                 switch ((options)option)
                 {
